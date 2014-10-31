@@ -24,6 +24,11 @@ install(FILES ${CET_MODULES}
   DESTINATION ${CET_MODULES_INSTALL_DIR}
   )
 
+# FindXXX modules
+file(GLOB FIND_MODULES ${PROJECT_SOURCE_DIR}/find-modules/*[^~])
+install(FILES ${FIND_MODULES}
+  DESTINATION ${FIND_MODULES_INSTALL_DIR}
+  )
 
 # - Package helpers
 include(CMakePackageConfigHelpers)
