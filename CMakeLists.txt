@@ -34,7 +34,7 @@ install(FILES ${FIND_MODULES}
 include(CMakePackageConfigHelpers)
 
 configure_package_config_file(
-  CMakeToolboxConfig.cmake.in
+  HEPCMakeConfig.cmake.in
   ${CMAKE_CURRENT_BINARY_DIR}/HEPCMakeConfig.cmake
   INSTALL_DESTINATION ${CMAKECONFIG_INSTALL_DIR}
   PATH_VARS
