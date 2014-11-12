@@ -1,9 +1,7 @@
-CMakeToolbox
-============
+HEPCMake
+========
 
-A collection of generic and HEP-specific CMake modules
-
-The "CMakeToolbox" name is preliminary, so expect it to change!
+A collection of CMake modules aimed at High Energy Physics software development.
 
 `find-modules`
 ==============
